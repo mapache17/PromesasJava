@@ -1,2 +1,2 @@
 # PromesasJava
-Uso de promesas en Java
+Consiste en una aplicación que obtiene la ubicación geográfica de un usuario y la muestra en un mapa. Para obtener la ubicación, se puede utilizar la API de geolocalización del navegador, pero esto puede demorarse por la velocidad de la conexión a Internet o la precisión del GPS. Para evitar bloquear el hilo principal de la aplicación, se puede utilizar una promesa para ejecutar la tarea de manera asíncrona. Cuando la promesa se completa, la ubicación se imprime en la consola (en un Array que contiene de forma simulada la vista satelital y de mapa traidas de la API y la latitud y longitud de la ubicación del usuario); mientras no se ha completado la promesa se imprime “Obteniendo ubicación . . .”.
